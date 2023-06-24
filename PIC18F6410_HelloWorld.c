@@ -62,7 +62,7 @@ void main(void)
       PORTG |= LED1ON;
       __delay_ms(1000);            // 1 sec
       PORTG &= LED1OFF;
-      /*
+        
       // Now LED2:
       __delay_ms(1000);            // Output alternating short(0.1 sec) then long(1sec) LED flashes
       PORTG |= LED2ON;
@@ -72,7 +72,6 @@ void main(void)
       PORTG |= LED2ON;
       __delay_ms(1000);            // 1 sec
       PORTG &= LED2OFF;
-       */
     }
 }
 
